@@ -1,9 +1,11 @@
 # Assignment: The Code
 
 Topics:
+
 ● Error Messages
 
 Tasks:
+
 ● Create a page where a user can submit a code
 
 ● Check the code against the word "bushido"
