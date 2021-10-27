@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+main{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-family: sans-serif; 
+	color: LightSeaGreen;
+	font-size: 40px;
+}
+
+#secretCode{
+	color: Teal;
+	font-size: 30px;
+	padding: 15px;
+	margin-top: 45px;
+	
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: DodgerBlue;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+
+button:hover{
+	cursor: pointer;
+    background-color: LightBlue;
+    color: Teal;
+}
+
+.errorAlert{
+	color: Tomato;
+	font-size: 30px;
+	padding: 15px;
+	margin-bottom: 45px;
+}
